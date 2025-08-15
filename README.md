@@ -42,15 +42,18 @@ This project uses the **Autism Brain Imaging Data Exchange (ABIDE) I** dataset. 
 
 ### **Installation**
 
-1. **Clone the repository:**  
-   git clone https://github.com/\[Your-Username\]/ASD-fMRI-Classification.git  
-   cd ASD-fMRI-Classification
-
+1. **Clone the repository:**
+   ```
+    git clone https://github.com/Aadisharma1/ASD-fMRI-Classification.git
+   cd ASD-fMRI-Classification 
+   
 2. **Create a virtual environment (recommended):**  
+   ```
    python \-m venv venv  
    source venv/bin/activate  \# On Windows, use \`venv\\Scripts\\activate\`
 
 3. **Install the required packages:**  
+   ```
    pip install \-r requirements.txt
 
 ### **Configuration**
@@ -97,7 +100,7 @@ If you use this code in your research, please consider citing our paper:
   pages={XX-XX}  
 }
 
-*(Note: Please update the journal name, volume, and pages once published.)*
+*(Note: update the journal name, volume, and pages once published.)*
 
 ## **📄 License**
 
